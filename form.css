@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+   
+    
+}
+.form{
+    background-color: peru;
+    margin: 5rem auto 1rem;
+    padding: 2rem;
+    max-width: 50%;
+    border-radius: 15px;
+   justify-content: center;
+  }
+
+.info{
+    color: black;
+    font-size: medium;
+    font-style: italic;
+    margin: 0.5rem;
+   
+}
+.info :hover{
+    background-color: mediumorchid;
+    opacity: 80%;
+    width: 200px;
+    height: 20px;
+}
+.gonder{
+    margin: 5px;
+    border-radius: 4px;
+}
+

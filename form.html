@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+   
+</head>
+<body>
+    <div class="form">
+        
+        
+        <div class="info">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        
+        <div class="info">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+        </div>
+        
+
+        <div class="info">
+            <label for="tcno">ID</label>
+            <input type="number" id="tcno" name="tcno">
+        </div>
+
+        <div class="info">
+           <label for="age">Age</label>
+           <input type="number" id="age" name="age">
+        </div>
+        
+        
+
+        <div class="info">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+
+        <div class="info">
+            <label for="telno">Telephone Number</label>
+            <input type="number" id="telno" name="telno" maxlength="11" minlength="11" placeholder="05xx xxx xx xx">
+
+        </div>
+       
+        <div class="info">
+            <label for="egitim">Eğitim Durumu</label>
+            <select name="egitim" id="egitim">
+            <option value="yukseklisans">Yüksek Lisans</option>
+            <option value="lisans">Lisans</option>
+            <option value="lise">Lise</option>
+            <option value="ortaokul">Ortaokul</option>
+    
+            </select> 
+        </div>
+         
+        <div class="info">
+            <label for="okul">Mezun olduysanız okulunuzun ismini yazınız.</label>
+            <input type="text" id="okul" name="okul"> 
+        </div>
+        
+        <div class="info">
+            <label for="askerlik">Askerlik yaptınız mı?</label>
+            <select name="askerlik" id="askerlik">
+                <option value="yes">Evet</option>
+                <option value="no">Hayır</option>
+            </select>
+        </div>
+       
+        
+        <div class="info">
+        <label for="ehliyet">Ehliyetiniz var mı?</label>
+        <label for="var">Var</label>
+        <input type="radio" name="var" id="var" value="Var">
+        <label for="yok">Yok</label>
+        <input type="radio" name="yok" id="yok" value="Yok">
+        
+        </div>
+    </div>   
+    
+
+        
+        <button class="gonder" style="background-color: chartreuse;" type="button">Formu Gönder</button>
+
+
+        
+    
+    
+</body>
+</html>
